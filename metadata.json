@@ -1,0 +1,6 @@
+{
+  "name": "Photo Star Sorter",
+  "description": "Clasificador de fotos por estrellas para tarjetas SD Canon vía USB-OTG con filtrado, copia, uso compartido y eliminación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

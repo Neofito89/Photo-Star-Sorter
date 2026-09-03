@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Photo Star Sorter</string>
+    <string name="app_subtitle_connect_sd">Collega la scheda SD tramite USB-OTG</string>
+
+    <!-- Azioni barra superiore -->
+    <string name="action_choose_sd">Scegli scheda SD</string>
+    <string name="action_rescan">Riscansiona scheda</string>
+    <string name="action_columns_menu">Menu colonne</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <!-- Menu e intestazioni colonne -->
+    <string name="col_select_all">TUTTO</string>
+    <string name="col_file_name">NOME FILE</string>
+    <string name="col_rating">VALUTAZIONE</string>
+    <string name="col_type">TIPO</string>
+    <string name="col_size">DIMENSIONE</string>
+    <string name="col_capture_date">DATA ACQUISIZIONE</string>
+    <string name="col_relative_path">PERCORSO RELATIVO</string>
+
+    <!-- Filtri di valutazione a stelle -->
+    <string name="filter_all">Tutte</string>
+    <string name="filter_unrated">0 ★ (Non valutata)</string>
+    <string name="filter_star_1">1 ★</string>
+    <string name="filter_star_2">2 ★</string>
+    <string name="filter_star_3">3 ★</string>
+    <string name="filter_star_4">4 ★</string>
+    <string name="filter_star_5">5 ★</string>
+    <string name="filter_unavailable">Non disponibile</string>
+
+    <!-- Badge di valutazione -->
+    <string name="rating_unrated">Non valutata</string>
+    <string name="rating_unavailable">Valutazione non disponibile</string>
+    <string name="rating_error">Errore</string>
+
+    <!-- Barra delle azioni contestuale -->
+    <string name="range_mode_active_banner">Modalità intervallo attiva: tocca il file finale per selezionare l\'intero intervallo</string>
+    <string name="action_clear_selection">Deseleziona tutto</string>
+    <string name="selected_files_count">%1$d selezionati</string>
+    <string name="selected_total_size">%1$s in totale</string>
+    <string name="action_range">Intervallo</string>
+    <string name="action_copy">Copia</string>
+    <string name="action_share">Condividi</string>
+    <string name="action_delete">Elimina</string>
+    <string name="share_chooser_title">Condividi file selezionati (%1$d)</string>
+
+    <!-- Stato e avanzamento scansione -->
+    <string name="scan_starting">Avvio scansione…</string>
+    <string name="scan_progress">Scansione in corso… %1$d foto trovate (%2$s)</string>
+    <string name="scan_completed">Scansione completata. %1$d foto trovate.</string>
+    <string name="scan_error">Errore durante la scansione: %1$s</string>
+    <string name="scan_media_disconnected">Supporto disconnesso</string>
+
+    <!-- Stato vuoto -->
+    <string name="empty_title">Nessuna foto da mostrare</string>
+    <string name="empty_message">Collega la scheda SD Canon tramite USB-OTG o modifica il filtro delle stelle.</string>
+    <string name="empty_action_open">Seleziona scheda SD</string>
+
+    <!-- Finestra di conferma eliminazione -->
+    <string name="dialog_delete_title">Eliminare %1$d foto dalla scheda SD?</string>
+    <string name="dialog_delete_message">Questa azione eliminerà definitivamente i %1$d file selezionati dalla scheda di memoria collegata tramite USB-OTG. L\'operazione non può essere annullata.</string>
+    <string name="dialog_delete_confirm">Elimina definitivamente</string>
+    <string name="dialog_cancel">Annulla</string>
+
+    <!-- Operazioni copia ed eliminazione: Avanzamento e riepilogo -->
+    <string name="op_delete_progress_title">Eliminazione delle foto dalla scheda SD…</string>
+    <string name="op_copy_progress_title">Copia nella memoria interna…</string>
+    <string name="op_progress_items">%1$d di %2$d</string>
+    <string name="op_progress_file">File: %1$s</string>
+    <string name="op_summary_delete_title">Eliminazione completata</string>
+    <string name="op_summary_copy_title">Copia completata</string>
+    <string name="op_summary_message">Operazione di %1$s terminata.</string>
+    <string name="op_type_delete">eliminazione</string>
+    <string name="op_type_copy">copia</string>
+    <string name="op_summary_completed">Completati</string>
+    <string name="op_summary_failed">Non riusciti</string>
+    <string name="op_summary_errors_title">Dettagli errori:</string>
+    <string name="dialog_ok">OK</string>
+    <string name="error_copy_dest_inaccessible">Impossibile accedere alla cartella di destinazione.</string>
+    <string name="error_delete_failed">Impossibile eliminare il file dalla memoria USB.</string>
+    <string name="error_permissions">Errore di autorizzazione</string>
+    <string name="error_unknown">Errore sconosciuto</string>
+
+    <!-- Finestra impostazioni -->
+    <string name="settings_title">Impostazioni e origine SD</string>
+    <string name="settings_selected_folder">Cartella selezionata:</string>
+    <string name="settings_no_folder">Nessuna scheda SD selezionata</string>
+    <string name="settings_change_folder">Cambia scheda SD / cartella</string>
+    <string name="settings_clear_cache">Svuota cache e riscansiona</string>
+    <string name="settings_app_language">Lingua dell\'app</string>
+    <string name="settings_system_default">Predefinita del sistema</string>
+    <string name="settings_dialog_close">Chiudi</string>
+
+    <!-- Spiegazione compatibilità Canon RAW -->
+    <string name="canon_raw_title">Compatibilità Canon RAW (CR2 / CR3)</string>
+    <string name="canon_raw_explanation">• JPEG, HEIC, TIFF: Valutazione XMP/EXIF compatibile al 100%.\n• CR2: Legge i dati XMP incorporati nelle intestazioni TIFF e nei tag Exif.\n• CR3: Legge i pacchetti XMP nei box ISOBMFF. Se il file RAW utilizza metadati proprietari senza XMP standard, mostra \'Valutazione non disponibile\' come fallback sicuro.</string>
+
+    <!-- Modalità scheda SD simulata per debug -->
+    <string name="debug_simulated_sd_title">Modalità scheda SD simulata per debug</string>
+    <string name="debug_simulated_sd_desc">Ambiente di scheda SD simulato per testare file Canon RAW CR2/CR3, valutazioni XMP a stelle, selezione per intervallo e azioni su file in batch.</string>
+</resources>

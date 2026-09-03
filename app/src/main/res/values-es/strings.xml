@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Photo Star Sorter</string>
+    <string name="app_subtitle_connect_sd">Conecta SD por USB-OTG</string>
+
+    <!-- Acciones de barra superior -->
+    <string name="action_choose_sd">Elegir tarjeta SD</string>
+    <string name="action_rescan">Reescanear tarjeta</string>
+    <string name="action_columns_menu">Menú de columnas</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!-- Menú y encabezados de columnas -->
+    <string name="col_select_all">TODO</string>
+    <string name="col_file_name">NOMBRE DEL ARCHIVO</string>
+    <string name="col_rating">CALIFICACIÓN</string>
+    <string name="col_type">TIPO</string>
+    <string name="col_size">TAMAÑO</string>
+    <string name="col_capture_date">FECHA CAPTURA</string>
+    <string name="col_relative_path">RUTA RELATIVA</string>
+
+    <!-- Filtros de calificación por estrellas -->
+    <string name="filter_all">Todas</string>
+    <string name="filter_unrated">0 ★ (Sin calificar)</string>
+    <string name="filter_star_1">1 ★</string>
+    <string name="filter_star_2">2 ★</string>
+    <string name="filter_star_3">3 ★</string>
+    <string name="filter_star_4">4 ★</string>
+    <string name="filter_star_5">5 ★</string>
+    <string name="filter_unavailable">No disponible</string>
+
+    <!-- Insignias de calificación -->
+    <string name="rating_unrated">Sin calificar</string>
+    <string name="rating_unavailable">Rating no disponible</string>
+    <string name="rating_error">Error</string>
+
+    <!-- Barra de acciones contextual -->
+    <string name="range_mode_active_banner">Modo rango activo: toca el archivo final para seleccionar todo el bloque</string>
+    <string name="action_clear_selection">Deseleccionar todo</string>
+    <string name="selected_files_count">%1$d seleccionados</string>
+    <string name="selected_total_size">%1$s en total</string>
+    <string name="action_range">Rango</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_delete">Borrar</string>
+    <string name="share_chooser_title">Compartir fotos seleccionadas (%1$d)</string>
+
+    <!-- Estado y progreso de escaneo -->
+    <string name="scan_starting">Iniciando escaneo…</string>
+    <string name="scan_progress">Escaneando… %1$d fotos encontradas (%2$s)</string>
+    <string name="scan_completed">Escaneo completado. %1$d fotos encontradas.</string>
+    <string name="scan_error">Error al escanear: %1$s</string>
+    <string name="scan_media_disconnected">Medio desconectado</string>
+
+    <!-- Estado vacío -->
+    <string name="empty_title">No hay fotos para mostrar</string>
+    <string name="empty_message">Conecta la tarjeta SD Canon por USB-OTG o ajusta el filtro de estrellas.</string>
+    <string name="empty_action_open">Seleccionar tarjeta SD</string>
+
+    <!-- Diálogo de confirmación de eliminación -->
+    <string name="dialog_delete_title">¿Eliminar %1$d fotos de la tarjeta SD?</string>
+    <string name="dialog_delete_message">Esta acción eliminará de forma permanente los %1$d archivos seleccionados de la tarjeta de memoria conectada por USB-OTG. Esta operación no se puede deshacer.</string>
+    <string name="dialog_delete_confirm">Eliminar definitivamente</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <!-- Operaciones de copia y borrado: Progreso y resumen -->
+    <string name="op_delete_progress_title">Eliminando fotos de la tarjeta SD…</string>
+    <string name="op_copy_progress_title">Copiando al almacenamiento interno…</string>
+    <string name="op_progress_items">%1$d de %2$d</string>
+    <string name="op_progress_file">Archivo: %1$s</string>
+    <string name="op_summary_delete_title">Eliminación completada</string>
+    <string name="op_summary_copy_title">Copia finalizada</string>
+    <string name="op_summary_message">Operación de %1$s finalizada.</string>
+    <string name="op_type_delete">eliminar</string>
+    <string name="op_type_copy">copiar</string>
+    <string name="op_summary_completed">Completados</string>
+    <string name="op_summary_failed">Con fallos</string>
+    <string name="op_summary_errors_title">Detalles de errores:</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="error_copy_dest_inaccessible">No se pudo acceder a la carpeta de destino.</string>
+    <string name="error_delete_failed">El archivo no pudo ser eliminado del soporte USB.</string>
+    <string name="error_permissions">Error de permisos</string>
+    <string name="error_unknown">Error desconocido</string>
+
+    <!-- Diálogo de ajustes -->
+    <string name="settings_title">Ajustes y origen SD</string>
+    <string name="settings_selected_folder">Carpeta seleccionada:</string>
+    <string name="settings_no_folder">Ninguna tarjeta seleccionada</string>
+    <string name="settings_change_folder">Cambiar tarjeta SD / carpeta</string>
+    <string name="settings_clear_cache">Vaciar caché y reescanear</string>
+    <string name="settings_app_language">Idioma de la aplicación</string>
+    <string name="settings_system_default">Predeterminado del sistema</string>
+    <string name="settings_dialog_close">Cerrar</string>
+
+    <!-- Explicación técnica Canon RAW -->
+    <string name="canon_raw_title">Compatibilidad Canon RAW (CR2 / CR3)</string>
+    <string name="canon_raw_explanation">• JPEG, HEIC, TIFF: Calificación XMP/EXIF 100% compatible.\n• CR2: Lee XMP embebido en encabezados TIFF y etiquetas Exif.\n• CR3: Lee paquetes XMP en cajas ISOBMFF. Si el archivo RAW utiliza metadatos propietarios sin XMP estándar, muestra \'Rating no disponible\' como fallback seguro.</string>
+
+    <!-- Modo de depuración / Tarjeta SD simulada -->
+    <string name="debug_simulated_sd_title">Modo de depuración con tarjeta SD simulada</string>
+    <string name="debug_simulated_sd_desc">Entorno de tarjeta SD simulada para pruebas con archivos Canon RAW CR2/CR3, calificaciones de estrellas XMP, selección por rangos y acciones por lotes.</string>
+</resources>

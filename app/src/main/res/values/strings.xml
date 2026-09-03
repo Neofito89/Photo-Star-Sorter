@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Photo Star Sorter</string>
+    <string name="app_subtitle_connect_sd">Connect SD card via USB-OTG</string>
+
+    <!-- Top Bar Actions -->
+    <string name="action_choose_sd">Choose SD card</string>
+    <string name="action_rescan">Rescan card</string>
+    <string name="action_columns_menu">Columns menu</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Column Menu & Headers -->
+    <string name="col_select_all">ALL</string>
+    <string name="col_file_name">FILE NAME</string>
+    <string name="col_rating">RATING</string>
+    <string name="col_type">TYPE</string>
+    <string name="col_size">SIZE</string>
+    <string name="col_capture_date">CAPTURE DATE</string>
+    <string name="col_relative_path">RELATIVE PATH</string>
+
+    <!-- Rating Filter Labels -->
+    <string name="filter_all">All</string>
+    <string name="filter_unrated">0 ★ (Unrated)</string>
+    <string name="filter_star_1">1 ★</string>
+    <string name="filter_star_2">2 ★</string>
+    <string name="filter_star_3">3 ★</string>
+    <string name="filter_star_4">4 ★</string>
+    <string name="filter_star_5">5 ★</string>
+    <string name="filter_unavailable">Unavailable</string>
+
+    <!-- Rating Badges -->
+    <string name="rating_unrated">Unrated</string>
+    <string name="rating_unavailable">Rating unavailable</string>
+    <string name="rating_error">Error</string>
+
+    <!-- Bottom Action Bar -->
+    <string name="range_mode_active_banner">Range mode active: tap the ending file to select the entire range</string>
+    <string name="action_clear_selection">Clear selection</string>
+    <string name="selected_files_count">%1$d selected</string>
+    <string name="selected_total_size">%1$s in total</string>
+    <string name="action_range">Range</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="share_chooser_title">Share selected files (%1$d)</string>
+
+    <!-- Scan Status & Progress -->
+    <string name="scan_starting">Starting scan…</string>
+    <string name="scan_progress">Scanning… %1$d photos found (%2$s)</string>
+    <string name="scan_completed">Scan completed. %1$d photos found.</string>
+    <string name="scan_error">Error while scanning: %1$s</string>
+    <string name="scan_media_disconnected">Media disconnected</string>
+
+    <!-- Empty State -->
+    <string name="empty_title">No photos to display</string>
+    <string name="empty_message">Connect your Canon SD card via USB-OTG or adjust the star rating filter.</string>
+    <string name="empty_action_open">Select SD card</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="dialog_delete_title">Delete %1$d photos from the SD card?</string>
+    <string name="dialog_delete_message">This action will permanently delete the %1$d selected files from the memory card connected via USB-OTG. This operation cannot be undone.</string>
+    <string name="dialog_delete_confirm">Delete permanently</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Operations: Copy and Delete Progress & Summary -->
+    <string name="op_delete_progress_title">Deleting photos from SD card…</string>
+    <string name="op_copy_progress_title">Copying to internal storage…</string>
+    <string name="op_progress_items">%1$d of %2$d</string>
+    <string name="op_progress_file">File: %1$s</string>
+    <string name="op_summary_delete_title">Deletion completed</string>
+    <string name="op_summary_copy_title">Copy completed</string>
+    <string name="op_summary_message">%1$s operation finished.</string>
+    <string name="op_type_delete">Delete</string>
+    <string name="op_type_copy">Copy</string>
+    <string name="op_summary_completed">Completed</string>
+    <string name="op_summary_failed">Failed</string>
+    <string name="op_summary_errors_title">Error details:</string>
+    <string name="dialog_ok">OK</string>
+    <string name="error_copy_dest_inaccessible">Could not access destination folder.</string>
+    <string name="error_delete_failed">The file could not be deleted from USB storage.</string>
+    <string name="error_permissions">Permission error</string>
+    <string name="error_unknown">Unknown error</string>
+
+    <!-- Settings Dialog -->
+    <string name="settings_title">Settings &amp; SD source</string>
+    <string name="settings_selected_folder">Selected folder:</string>
+    <string name="settings_no_folder">No SD card selected</string>
+    <string name="settings_change_folder">Change SD card / folder</string>
+    <string name="settings_clear_cache">Clear cache and rescan</string>
+    <string name="settings_app_language">App language</string>
+    <string name="settings_system_default">System default</string>
+    <string name="settings_dialog_close">Close</string>
+
+    <!-- Canon RAW Explanation -->
+    <string name="canon_raw_title">Canon RAW compatibility (CR2 / CR3)</string>
+    <string name="canon_raw_explanation">• JPEG, HEIC, TIFF: 100% compatible XMP/EXIF rating.\n• CR2: Reads embedded XMP in TIFF headers and Exif tags.\n• CR3: Reads XMP packets in ISOBMFF boxes. If the RAW file uses proprietary metadata without standard XMP, displays \'Rating unavailable\' as a safe fallback.</string>
+
+    <!-- Debug Simulated SD Card Mode -->
+    <string name="debug_simulated_sd_title">Debug simulated SD card mode</string>
+    <string name="debug_simulated_sd_desc">Simulated SD card environment for testing Canon RAW CR2/CR3 files, XMP star ratings, range selection, and batch file actions.</string>
+</resources>
